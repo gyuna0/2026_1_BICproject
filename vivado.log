@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Mon May  4 22:03:03 2026
+# Process ID: 4476
+# Current directory: D:/Vivado/0504_MLP_2
+# Command line: vivado.exe -mode batch -source C:\Users\gyuna\OneDrive\문서\New project\run_real_tb_feature.tcl
+# Log file: D:/Vivado/0504_MLP_2/vivado.log
+# Journal file: D:/Vivado/0504_MLP_2\vivado.jou
+# Running On: BOOK-5G8S43AH8T, OS: Windows, CPU Frequency: 2112 MHz, CPU Physical cores: 12, Host memory: 16773 MB
+#-----------------------------------------------------------
+CRITICAL WARNING: [Common 17-741] No write access right to the local Tcl store at 'C'. XilinxTclStore is reverted to the installation area. If you want to use local Tcl Store, please change the access right and relaunch Vivado.
+source {C:\Users\gyuna\OneDrive\문서\New project\run_real_tb_feature.tcl}
+# open_project {D:/Vivado/0504_MLP_2/0504_MLP_2.xpr}
+WARNING: [Project 1-1870] Given BoardPartRepoPath C:/Users/gyuna/AppData/Roaming/Xilinx/Vivado/2022.2/xhub/board_store/xilinx_board_store in the xpr file is empty or unreadable
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2022.2/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'clk_wiz_0' is locked:
+* This IP has board specific outputs. Current project board 'unset' and the board 'digilentinc.com:cmod_a7-35t:part0:1.2' used to customize the IP 'clk_wiz_0' do not match.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 1043.102 ; gain = 158.910
+# update_compile_order -fileset sources_1
+# update_compile_order -fileset sim_1
